@@ -2,7 +2,7 @@ import express, { Request, Response } from 'express'
 import cors from 'cors'
 import bodyParser from "body-parser";
 import swaggerUi from 'swagger-ui-express'
-import swaggerDocument from '../swagger.json'
+import swaggerDocument from './swagger.json'
 import {router} from './router'
 
 export let videos = [
